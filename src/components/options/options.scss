@@ -1,0 +1,36 @@
+$border-color: unquote('#8887');
+$img-size: 1.4em;
+
+#options {
+  margin: 5px 0;
+  
+  flex: 0 1 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.optionsSpacer {
+  flex: 1 1 auto;
+}
+
+.optionsContainer {
+  flex: 0 1 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  border: solid 1px $border-color;
+  border-radius: 5px;
+}
+
+.optionsRestart {
+  width: $img-size;
+  height: $img-size;
+  padding: 5px;
+}
+
+

@@ -1,0 +1,25 @@
+.is-correct-container {
+    display: inline-block;
+    width: 1.4em;
+}
+
+.is-correct-inner {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 1.4em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.correct-none {
+    background-image: url(./img/none80x80.png);
+}
+
+.correct-tick {
+    background-image: url(./img/tick80x80.png);
+}
+
+.correct-cross {
+    background-image: url(./img/cross80x80.png);
+}

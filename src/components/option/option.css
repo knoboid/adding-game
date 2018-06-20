@@ -1,0 +1,15 @@
+.option {
+  padding: 5px;
+  font-family: monospace;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.option svg {
+  z-index: 16000001;
+}
+
+.option span {
+  padding: 5px;
+}

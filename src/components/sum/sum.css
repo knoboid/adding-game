@@ -1,0 +1,32 @@
+input.input {
+  background-color: #ccc;
+  text-align: center;
+  border: solid 1px #aaa7;
+  border-radius: 3px;
+  margin-left: 5px;
+  font-family: monospace;
+  font-size: 1em;
+}
+
+.padleft {
+  padding-left: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+/*
+The following prevent arrows from being displayed 
+in numerical inputs.
+*/
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
